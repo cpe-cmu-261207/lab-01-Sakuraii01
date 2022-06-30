@@ -39,6 +39,56 @@
         <a href="contact.html" class="item text-decoration-none">CONTACT</a>
       </li>
     </div>
+    <div class="middle2 d-block align-items-center">
+      <!--title1-->
+      <div>
+        <p class="title title2 mt-4 mb-4">PROJECT EXPERIENCE</p>
+        <div>
+          <button class="accordion">ROADMAY PROJECT</button>
+          <div class="panel">
+            <p>
+              <img
+                src="picture/experience/roadmay.jpg"
+                class="w-50 mt-3 d-block"
+              />
+              <br />
+              The prototype app to show the bus arrival time. I do a front-end
+              with team.
+            </p>
+          </div>
+
+          <button class="accordion">PROGRAMMING SUPJECT PROJECT</button>
+          <div class="panel">
+            <img
+              src="picture/experience/compro.jpg"
+              class="w-50 mt-3 d-block"
+            />
+            <p>
+              <br />
+              The prototype app for waitress to take order , bill check and
+              check daily balance.
+            </p>
+          </div>
+
+          <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+              });
+            }
+          </script>
+        </div>
+        <!--dont delete here-->
+      </div>
+    </div>
   </body>
-  <div class="middle2"></div>
 </html>
