@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background: #2d3436 100%;
+  padding-bottom: 40px;
 }
 
 .head {
@@ -64,14 +65,15 @@ body {
 }
 
 .bottom {
-  display: inline-block;
+  display: block;
   margin-top: 50px;
   margin-left: 150px;
 }
 
 .title2 {
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .card {
@@ -119,17 +121,18 @@ body {
 }
 
 .contact {
-  margin-top: 50px;
+  margin-top: 20px;
   display: block;
   justify-content: center;
   padding: 20px;
   border-radius: 50px;
+  margin-bottom: 50px;
 }
 
 .box-transparent {
-  position: fixed;
   top: 20px;
   left: 20px;
+  border-radius: 50px;
   background-color: rgba(100, 100, 100, 0.6);
   padding: 20px;
 }
