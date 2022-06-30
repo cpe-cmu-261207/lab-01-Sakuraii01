@@ -19,12 +19,13 @@ body {
   color: rgb(109, 109, 109);
   padding: 15px;
   margin-left: 40px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
+  transition: 0.5s;
 }
 
 .item:hover {
-  color: #c937b5;
+  color: #19d7f8;
 }
 
 .item1 {
@@ -37,6 +38,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .mypic {
+  box-shadow: 2px white;
   display: block;
   margin-top: 70px;
   margin-left: 150px;
@@ -56,6 +58,10 @@ body {
   color: gray;
   display: block;
 }
+.middle {
+  display: block;
+  justify-content: center;
+}
 
 .bottom {
   display: inline-block;
@@ -69,8 +75,10 @@ body {
 }
 
 .card {
+  vertical-align: center;
   transition: 1s;
 }
+
 .card:hover {
   margin-left: 20px;
   margin-right: 20px;
@@ -78,4 +86,50 @@ body {
 
 .card-text {
   color: rgb(109, 109, 109);
+  /*visibility: hidden;*/
+}
+
+/*contact*/
+.middle3 {
+  display: block;
+  justify-content: center;
+  margin: 100px;
+}
+.t1 {
+  margin-left: 100px;
+  color: white;
+}
+.facebook:hover {
+  text-decoration: underline;
+  color: #19d7f8;
+}
+
+.email:hover {
+  text-decoration: underline;
+  color: #19d7f8;
+}
+
+.td1 {
+  padding-left: 60px;
+  color: rgb(186, 247, 252);
+}
+
+.td2 {
+  font-weight: bold;
+}
+
+.contact {
+  margin-top: 50px;
+  display: block;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.box-transparent {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(100, 100, 100, 0.6);
+  padding: 20px;
 }
