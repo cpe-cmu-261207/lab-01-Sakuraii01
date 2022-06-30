@@ -184,3 +184,7 @@ body {
   margin-left: 10%;
   width: 80%;
 }
+.click {
+  font-weight: lighter;
+  color: gray;
+}
