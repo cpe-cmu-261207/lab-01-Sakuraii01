@@ -11,10 +11,71 @@ body {
 }
 
 .head {
-  display: inline-block;
   margin-left: 110px;
 }
 
-.head:hover {
-  color: salmon;
+.item {
+  display: inline-block;
+  color: rgb(109, 109, 109);
+  padding: 15px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item:hover {
+  color: #c937b5;
+}
+
+.item1 {
+  color: white;
+}
+
+.title {
+  background: -webkit-linear-gradient(60deg, #fd00da, #19d7f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mypic {
+  display: block;
+  margin-top: 70px;
+  margin-left: 150px;
+  border-top-left-radius: 100px;
+}
+
+.title1 {
+  display: block;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 50px;
+}
+.descrip1 {
+  font-size: 15px;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: gray;
+  display: block;
+}
+
+.bottom {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.title2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.card {
+  transition: 1s;
+}
+.card:hover {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-text {
+  color: rgb(109, 109, 109);
 }

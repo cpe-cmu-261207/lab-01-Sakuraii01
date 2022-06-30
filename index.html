@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume Website</title>
-    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,13 +16,81 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div class="head d-flex">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Experience</a></li>
-      <li><a href="#">Contact</a></li>
+    <div class="d-flex align-items-center">
+      <img
+        src="picture/head mas(white).jpg"
+        width="50"
+        height="50"
+        style="object-fit: cover"
+        class="rounded-circle ms-5"
+      />
+      <li><a href="index.html" class="item item1 text-decoration-none">HOME</a></li>
+      <li><a href="experience.html" class="item text-decoration-none">EXPERIENCE</a></li>
+      <li><a href="#" class="item text-decoration-none">CONTACT</a></li>
     </div>
+
+    <div class="middle ms-5 d-flex">
+      <span><img src="picture/mypic.jpg" class="mypic" width="250px" height="300px" style="object-fit: cover"></span>
+      <span><p1 class="title title1"> WELCOME TO <br />"PEARL KUROKAMI" WEB </p1>
+        <p2 class="descrip1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor <br />incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud <br />
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo c onsequat.
+          Duis aute <br />
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. <br />
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit <br />
+          anim id est laborum.
+        </p2></span>
+      
+    </div>
+
+    <!--bottom-->
+    <div class="bottom">
+      <p class="title title2">MY SKILL</p>
+      <div class="d-flex gap-5"> 
+        <span>
+          <div class="card" style="width: 18rem">
+            <img src="picture/programming.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p>PROGRAMMING</p>
+              <p class="card-text ms-2">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </span>
+        <span>
+          <div class="card" style="width: 18rem">
+            <img src="picture/programming.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p>PROGRAMMING</p>
+              <p class="card-text ms-2">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </span>
+        <span>
+          <div class="card" style="width: 18rem">
+            <img src="picture/programming.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p>PROGRAMMING</p>
+              <p class="card-text ms-2">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </span>
+      </div>
   </body>
 </html>
