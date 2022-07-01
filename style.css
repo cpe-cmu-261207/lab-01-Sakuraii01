@@ -36,6 +36,7 @@ body {
 .title {
   background: -webkit-linear-gradient(60deg, #fd00da, #19d7f8 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .mypic {
@@ -184,4 +185,58 @@ body {
 .click {
   font-weight: lighter;
   color: gray;
+}
+.other-ex {
+  height: 200px;
+  width: 250px;
+  border-radius: 3px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.card2 {
+  height: 200px;
+  margin: 20px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+}
+.intro {
+  height: 60px;
+  width: 250px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: white;
+  color: #2d3436;
+  transition: 0.5s;
+}
+
+.title3 {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.inner {
+  font-size: 15px;
+  margin: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card2:hover {
+  cursor: pointer;
+}
+
+.card2:hover .intro {
+  height: 155px;
+  background: white;
+}
+
+.card2:hover .inner {
+  opacity: 1;
+  visibility: visible;
+}
+
+.card2:hover .other-ex {
+  transform: scale(1.1) rotate(5deg);
 }
